@@ -1,0 +1,24 @@
+<div>
+  <mat-toolbar color="primary">
+    <mat-tab-group backgroundColor="primary" color="primary">
+      <mat-tab label="First"></mat-tab>
+      <mat-tab label="Second"></mat-tab>
+      <mat-tab label="Third"></mat-tab>
+
+    </mat-tab-group>
+    <span class="example-spacer"></span>
+<!--    <mat-tab-group backgroundColor="primary" color="accent">-->
+<!--      <mat-tab>-->
+<!--        <ng-template mat-tab-label>-->
+<!--          ChrisRb-->
+<!--          <mat-icon class="example-tab-icon">grade</mat-icon>-->
+<!--        </ng-template>-->
+<!--      </mat-tab>-->
+<!--    </mat-tab-group>-->
+
+    <button mat-button [matMenuTriggerFor]="beforeMenu">ChrisRb</button>
+    <mat-menu #beforeMenu="matMenu" xPosition="before">
+      <button mat-menu-item>Logout</button>
+    </mat-menu>
+  </mat-toolbar>
+</div>
