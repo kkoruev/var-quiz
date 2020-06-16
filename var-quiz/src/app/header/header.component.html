@@ -1,9 +1,9 @@
 <div>
   <mat-toolbar color="primary">
-    <mat-tab-group backgroundColor="primary" color="primary">
-      <mat-tab label="First"></mat-tab>
-      <mat-tab label="Second"></mat-tab>
-      <mat-tab label="Third"></mat-tab>
+    <mat-tab-group backgroundColor="primary" color="accent">
+      <mat-tab label="Home"></mat-tab>
+      <mat-tab label="Quiz"></mat-tab>
+      <mat-tab label="Leaderboard"></mat-tab>
 
     </mat-tab-group>
     <span class="example-spacer"></span>
@@ -17,7 +17,7 @@
 <!--    </mat-tab-group>-->
 
     <button mat-button [matMenuTriggerFor]="beforeMenu">ChrisRb</button>
-    <mat-menu #beforeMenu="matMenu" xPosition="before">
+    <mat-menu color="primary" #beforeMenu="matMenu" xPosition="before">
       <button mat-menu-item>Logout</button>
     </mat-menu>
   </mat-toolbar>

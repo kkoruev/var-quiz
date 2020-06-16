@@ -10,6 +10,7 @@ import { ToggleButtonComponentComponent } from './toggle-button-component/toggle
 import { BadgesAndIconsComponent } from './badges-and-icons/badges-and-icons.component';
 import {AppRoutingModule} from './app-routing.module';
 import { HeaderComponent } from './header/header.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HeaderComponent } from './header/header.component';
     ButtonMComponent,
     ToggleButtonComponentComponent,
     BadgesAndIconsComponent,
-    HeaderComponent
+    HeaderComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
